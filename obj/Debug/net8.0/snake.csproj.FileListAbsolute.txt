@@ -1,0 +1,14 @@
+/home/rahulrajdahal/programming/personal/c#/snake/bin/Debug/net8.0/snake
+/home/rahulrajdahal/programming/personal/c#/snake/bin/Debug/net8.0/snake.deps.json
+/home/rahulrajdahal/programming/personal/c#/snake/bin/Debug/net8.0/snake.runtimeconfig.json
+/home/rahulrajdahal/programming/personal/c#/snake/bin/Debug/net8.0/snake.dll
+/home/rahulrajdahal/programming/personal/c#/snake/bin/Debug/net8.0/snake.pdb
+/home/rahulrajdahal/programming/personal/c#/snake/obj/Debug/net8.0/snake.GeneratedMSBuildEditorConfig.editorconfig
+/home/rahulrajdahal/programming/personal/c#/snake/obj/Debug/net8.0/snake.AssemblyInfoInputs.cache
+/home/rahulrajdahal/programming/personal/c#/snake/obj/Debug/net8.0/snake.AssemblyInfo.cs
+/home/rahulrajdahal/programming/personal/c#/snake/obj/Debug/net8.0/snake.csproj.CoreCompileInputs.cache
+/home/rahulrajdahal/programming/personal/c#/snake/obj/Debug/net8.0/snake.dll
+/home/rahulrajdahal/programming/personal/c#/snake/obj/Debug/net8.0/refint/snake.dll
+/home/rahulrajdahal/programming/personal/c#/snake/obj/Debug/net8.0/snake.pdb
+/home/rahulrajdahal/programming/personal/c#/snake/obj/Debug/net8.0/snake.genruntimeconfig.cache
+/home/rahulrajdahal/programming/personal/c#/snake/obj/Debug/net8.0/ref/snake.dll
