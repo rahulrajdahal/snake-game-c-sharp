@@ -19,8 +19,6 @@ git clone https://github.com/rahulrajdahal/snake-game-c-sharp.git
 
 ### 2. Navigate to the directory
 
-#### npm
-
 ```sh
 cd snake-game-c-sharp
 ```
