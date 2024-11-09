@@ -12,3 +12,4 @@
 /home/rahulrajdahal/programming/personal/c#/snake/obj/Debug/net8.0/snake.pdb
 /home/rahulrajdahal/programming/personal/c#/snake/obj/Debug/net8.0/snake.genruntimeconfig.cache
 /home/rahulrajdahal/programming/personal/c#/snake/obj/Debug/net8.0/ref/snake.dll
+/home/rahulrajdahal/programming/personal/c#/snake/obj/Debug/net8.0/snake.sourcelink.json

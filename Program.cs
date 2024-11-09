@@ -1,14 +1,14 @@
 ﻿using Snake;
 
-Coord gridDimensions = new Coord(50, 20);
-Coord snakePos = new Coord(10, 1);
-Random random = new Random();
-Coord rewardPos = new Coord(random.Next(1, gridDimensions.X - 1), random.Next(1, gridDimensions.Y - 1));
+Coord gridDimensions = new(50, 30);
+Coord snakePos = new(10, 1);
+Random random = new();
+Coord rewardPos = new(random.Next(1, gridDimensions.X), random.Next(1, gridDimensions.Y));
 int frameDelayMilli = 50;
 Direction movement = Direction.Down;
 int score = 0;
 
-List<Coord> snakePosHistory = new List<Coord>();
+List<Coord> snakePosHistory = [];
 int tailLength = 0;
 
 while (true)
@@ -21,22 +21,24 @@ while (true)
     {
         for (int x = 0; x < gridDimensions.X; x++)
         {
-            Coord currentCoord = new Coord(x, y);
+            Coord currentCoord = new(x, y);
 
-            if (snakePos.Equals(currentCoord) || snakePosHistory.Contains(currentCoord))
+
+            if (snakePos.Equals(currentCoord))
             {
-                Console.Write("s");
-                //  Console.Write("🐍");
+                Console.Write("c");
+            }
+            else if (snakePosHistory.Contains(currentCoord))
+            {
+                Console.Write("o");
             }
             else if (rewardPos.Equals(currentCoord))
             {
-                Console.Write("r");
-                // Console.Write("🐀");
+                Console.Write("o");
             }
             else if (x == 0 || y == 0 || x == gridDimensions.X - 1 || y == gridDimensions.Y - 1)
             {
                 Console.Write("#");
-                // Console.Write("🧱");
             }
             else
             {
@@ -68,9 +70,9 @@ while (true)
         snakePosHistory.RemoveAt(0);
     }
 
-    DateTime time = DateTime.Now;
+    DateTime time = DateTime.UtcNow;
 
-    while ((DateTime.Now - time).Milliseconds < frameDelayMilli)
+    while ((DateTime.UtcNow - time).Milliseconds < frameDelayMilli)
     {
         if (Console.KeyAvailable)
         {
